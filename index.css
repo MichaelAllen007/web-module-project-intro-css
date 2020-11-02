@@ -67,6 +67,7 @@ html, body {
     display: inline-block;
     border: 2px solid black;
     width: 100%;
+    margin: auto;
     height: auto;
     color: white;
     text-decoration: none;
@@ -75,7 +76,11 @@ html, body {
 
 .plan {
     display: inline-block;
-    width: 16%;
+    width: 12%;
+    height: 50px;
+    margin-right: 100px;
+    border-radius: 10px;
+    padding: 12px;
     background-color: #FF764E;
 }
 
@@ -86,7 +91,11 @@ html, body {
 
 .learn {
     display: inline-block;
-    width: 16%;
+    width: 12%;
+    height: 50px;
+    margin-right: 100px;
+    border-radius: 10px;
+    padding: 12px;
     background-color: #5ED3EB;
 }
 
@@ -97,12 +106,40 @@ html, body {
 
 .get {
     display: inline-block;
-    width: 16%;
+    width: 12%;
+    height: 50px;
+    margin-right: 100px;
+    border-radius: 10px;
+    padding: 12px;
     background-color: #FFCD69;
 }
 .get:hover {
     color:black;
     cursor: pointer;
+}
+
+header {
+    display: block;
+    border: 2px solid red;
+    margin: auto;
+    width: 70%;
+}
+
+.header-text {
+    display: inline-block;
+    border: 2px solid black;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+#header-img {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+    
 }
 
 .nav-bar-color {
