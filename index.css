@@ -83,11 +83,11 @@ html, body {
 
 .plan {
     display: inline-block;
-    width: 11%;
+    width: 12%;
     height: 100px;
     margin-right: 100px;
     border-radius: 10px;
-    padding: 12px;
+    padding: 20px;
     background-color: #FF764E;
 }
 
@@ -98,11 +98,11 @@ html, body {
 
 .learn {
     display: inline-block;
-    width: 11%;
+    width: 12%;
     height: 100px;
     margin-right: 100px;
     border-radius: 10px;
-    padding: 12px;
+    padding: 20px;
     background-color: #5ED3EB;
 }
 
@@ -113,11 +113,11 @@ html, body {
 
 .get {
     display: inline-block;
-    width: 11%;
+    width: 12%;
     height: 100px;
     margin-right: 100px;
     border-radius: 10px;
-    padding: 12px;
+    padding: 20px;
     background-color: #FFCD69;
 }
 .get:hover {
@@ -135,7 +135,7 @@ header {
 .header-text {
     display: inline-block;
     position: absolute;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-top: 5%;
     width: 50%;
     text-align: center;
@@ -146,7 +146,7 @@ header {
 }
 
 .bottom-header-text {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 50%;
     margin: auto;
     font-size: 1.5em;
@@ -154,7 +154,7 @@ header {
 
 #header-img {
     display: inline-block;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 50%;
     width: 35%;
     height: 35%;
@@ -187,6 +187,10 @@ header {
     padding: 5%;
 }
 
+.fire-text {
+    font-size: 1.2em;
+}
+
 b {
     font-weight: bold;
 }
@@ -198,6 +202,10 @@ b {
     height: 20%;
     margin: auto;
     padding: 5%;
+}
+
+.van-text {
+    font-size: 1.2em;
 }
 
 .footer-img {
