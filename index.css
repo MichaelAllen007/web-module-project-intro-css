@@ -46,7 +46,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
- /* CODE STARTS HERE */
+ /* FONT CHANGES - BOX SIZING */
+
+* {
+    box-sizing: border-box;
+}
 
 h1 {
     font-family: 'Chelsea Market';
@@ -55,4 +59,59 @@ h1 {
 
 html, body {
     font-family: 'Roboto Mono', sans-serif;
+}
+
+/* PAGE CONTENT */
+
+.nav-bar {
+    display: inline-block;
+    border: 2px solid black;
+    width: 100%;
+    height: auto;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.plan {
+    display: inline-block;
+    width: 16%;
+    background-color: #FF764E;
+}
+
+.plan:hover{
+    color:black;
+    cursor: pointer;
+}
+
+.learn {
+    display: inline-block;
+    width: 16%;
+    background-color: #5ED3EB;
+}
+
+.learn:hover {
+    color:black;
+    cursor: pointer;
+}
+
+.get {
+    display: inline-block;
+    width: 16%;
+    background-color: #FFCD69;
+}
+.get:hover {
+    color:black;
+    cursor: pointer;
+}
+
+.nav-bar-color {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid black;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    background-color: #F9E7DC;
 }
